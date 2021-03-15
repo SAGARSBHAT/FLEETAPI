@@ -70,7 +70,7 @@ a.delete('/deletetransport/:id', (req, res) => {
     })
 })
 
-MongoClient.connect(mongourl, (err, client) =>
+MongoClient.connect(mongourl,{ useNewUrlParser: true }, (err, client) =>
 {
     if (err) throw err
     db = client.db('fleetlabinternship')
