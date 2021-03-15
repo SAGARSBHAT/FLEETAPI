@@ -4,9 +4,9 @@ const c = require('cors')
 const b = require('body-parser')
 const a = x()
 const MongoClient = y.MongoClient
-const mongourl = 'mongodb+srv://sagar:inception@14@cluster0.upgy9.mongodb.net/fleetlabinternship?retryWrites=true&w=majority'
+const mongourl = 'mongodb+srv://sagar:sagar1414@cluster0.upgy9.mongodb.net/fleetlabinternship?retryWrites=true&w=majority'
 let db;
-const p = 8900
+const p =process.env.PORT||8900;
 
 a.use(c())
 a.use(b.urlencoded({ extended: true }))
