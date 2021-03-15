@@ -4,7 +4,7 @@ const c = require('cors')
 const b = require('body-parser')
 const a = x()
 const MongoClient = y.MongoClient
-const mongourl = 'mongodb+srv://sagar:sagar@14@cluster0.upgy9.mongodb.net/fleetlabinternship?retryWrites=true&w=majority'
+const mongourl = 'mongodb+srv://sagar:inception@14@cluster0.upgy9.mongodb.net/fleetlabinternship?retryWrites=true&w=majority'
 let db;
 const p = 8900
 
