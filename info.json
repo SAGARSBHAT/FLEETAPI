@@ -1,0 +1,42 @@
+db.medi.insertMany([
+  {
+    "_id": 2,
+    "Title": "Dental",
+    "Capc": "200 SGD",
+    "Capy": "600 SGD",
+    "Capm": "100.50 SGD",
+    "Balance": "100.50 SGD"
+  },
+  {
+    "_id": 3,
+    "Title": "Insurance",
+    "Capc": "5,000 SGD",
+    "Capy": "5,000 SGD",
+    "Capm": "200 SGD",
+    "Balance": "200 SGD"
+  },
+  {
+    "_id": 4,
+    "Title": "Dental",
+    "Capc": "200 SGD",
+    "Capy": "600 SGD",
+    "Capm": "100.50 SGD",
+    "Balance": "100.50 SGD"
+  },
+  {
+    "_id": 5,
+    "Title": "Dental",
+    "Capc": "200 SGD",
+    "Capy": "600 SGD",
+    "Capm": "100.50 SGD",
+    "Balance": "100.50 SGD"
+  },
+  {
+    "_id": 6,
+    "Title": "Dental",
+    "Capc": "200 SGD",
+    "Capy": "600 SGD",
+    "Capm": "100.50 SGD",
+    "Balance": "100.50 SGD"
+  }
+])
